@@ -1,0 +1,110 @@
+.row .col.blue {
+	height: 105px;
+	border: 1px solid #2196f3;
+}
+
+.row .col.grey {
+	height: 500px;
+	border: 1px solid #90a4ae;
+}
+
+#rodape {
+	height: 70px;
+	border: 1px solid #90a4ae;
+}
+
+h6 {
+	height: 10%;
+}
+
+#home {
+	width: 40%;
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+
+#botaoLogin {
+	width: 40%;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#botaoEnviar {
+	width: 50%;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+	color: #2196f3;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* valid color */
+.input-field input[type=text].valid {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: #2196f3;
+}
+
+/* label focus color */
+.input-field input[type=password]:focus+label {
+	color: #2196f3;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* valid color */
+.input-field input[type=password].valid {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: #2196f3;
+}
+
+/* label focus color */
+.input-field input[type=file]:focus+label {
+	color: #2196f3;
+}
+/* label underline focus color */
+.input-field input[type=file]:focus {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* valid color */
+.input-field input[type=file].valid {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* invalid color */
+.input-field input[type=file].invalid {
+	border-bottom: 1px solid #2196f3;
+	box-shadow: 0 1px 0 0 #2196f3;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: #2196f3;
+}
